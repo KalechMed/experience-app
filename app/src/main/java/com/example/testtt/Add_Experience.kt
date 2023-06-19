@@ -23,6 +23,7 @@ class Add_Experience : AppCompatActivity() {
             val text2 = editText2.text.toString()
             val text3 = editText3.text.toString()
 
+
             val editor = sharedPref.edit()
             editor.putString("name", text1)
             editor.putString("address", text2)
